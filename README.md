@@ -1,49 +1,28 @@
-# JN Garage Detail - App de Lavadero
+# JN Garage Detail - App PRO
 
-App web simple hecha con React + Vite para administrar clientes, turnos, servicios y caja.
+Proyecto listo para subir a Vercel o GitHub.
 
-## Qué trae
-- Login demo
-- Panel principal
-- Clientes
-- Turnos
-- Servicios
-- Caja
-- Turnos online
-- Guardado local en el navegador (localStorage)
-
-## Usuario demo
-- Usuario: `julian`
-- Clave: `1234`
-
-## Cómo probarla en tu compu
-1. Instalá Node.js
-2. Abrí una terminal dentro de esta carpeta
-3. Corré:
-
+## Cómo correrlo local
 ```bash
 npm install
 npm run dev
 ```
 
-## Cómo generar la versión para subir
-```bash
-npm install
-npm run build
-```
+## Cómo subirlo a Vercel
+- Subí esta carpeta a GitHub
+- Conectá el repo con Vercel
+- Framework: Vite
+- Build command: npm run build
+- Output directory: dist
 
-Eso te crea la carpeta `dist`, que es la que se sube.
+## Login demo
+- Usuario: julian
+- Clave: 1234
 
-## Dónde conviene subirla
-### Opción más fácil
-- **Vercel** o **Netlify**
-
-### Opción para cuando tenga backend
-- **Render**
-
-## Importante
-Esta versión guarda datos en el navegador. Si querés una versión posta para usar todos los días, lo ideal es pasarla después a:
-- Frontend: React
-- Backend: Flask
-- Base de datos: PostgreSQL
-- Hosting: Render
+## Qué trae
+- Login
+- Clientes
+- Turnos
+- Servicios
+- Caja
+- Guardado local en navegador
